@@ -24,7 +24,7 @@ const CheckOut = () => {
             price: price
         }
         console.log(order);
-        fetch('http://localhost:5000/checkout',{
+        fetch('https://car-doctor-server-chi-steel.vercel.app/checkout',{
             method: 'POST',
             headers: {
                 'content-type': 'application/json'
